@@ -66,18 +66,18 @@ p{
     margin-bottom: 24px;
     border-radius: 5px;
 }
-.feature-absulote-img-1 {
+.feature-absulote-image-1 {
     position: absolute;
-    top: 45%;
-    left: -15%;
-    z-index: -3;
+    top: 10%;
+    left: -16%;
+    width: 14.773%;
 }
-.feature-absulote-img-2 {
+.feature-absulote-image-2 {
     position: absolute;
-    top: -200px;
-    left: -195px;
-    width: 430px;
-    z-index: -4;
+    top: -45%;
+    left: -13.2%;
+    width: 32.046%;
+    z-index: -1;
 }
 /* Feature Area End */
 
