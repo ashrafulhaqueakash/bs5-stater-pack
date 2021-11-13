@@ -5,7 +5,7 @@ body{
 }
 p{
     font-size: 15px;
-    color: #edeff3;
+    color: #494949;
     line-height: 1.733;
 }
 .subtitle{
@@ -41,7 +41,6 @@ p{
     padding: 75px 0;
 }
 
-
 /* Hero area Start */
 .hero-area{
     padding: 150px 0;
@@ -62,9 +61,12 @@ p{
 }
 .single-feature{
     background: #2a6dfc;
+    border-radius: 5px;
     padding: 60px 35px;
     margin-bottom: 24px;
-    border-radius: 5px;
+}
+.single-feature p{
+    color: #edeff3;
 }
 .feature-absulote-image-1 {
     position: absolute;
@@ -90,6 +92,18 @@ p{
     color: #fad126;
     font-size: 16px;
 }
+.about-absulote-img-1 {
+    position: absolute;
+    top: 5%;
+    right: -25%;
+    width: 29.621%;
+}
+.about-absulote-img-2{
+    position: absolute;
+    top: 20%;
+    right: -23%;
+    width: 29.621%;
+}
 /* About Area End */
 
 /* Counter Area Start */
@@ -97,7 +111,6 @@ p{
     background: #eef0f4;
 }
 .single-counter{
-    border-right: 1px solid #dee0e5;
     padding: 75px 0;
 }
 .counter-number{
@@ -107,3 +120,31 @@ p{
     
 }
 /* Counter Area End */
+
+/* Service Area */
+.single-service{
+    box-shadow: 0px 0px 53px -40px #5b5656b8;
+    padding: 180px 35px 110px;
+    transition: 0.5s;
+    margin-bottom: 90px;
+}
+.single-service:hover{
+    background-color: #2a6dfc;
+}
+.single-service:hover *{
+    color: #fff;
+    transition: 0.5s;
+}
+.service-icon{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -60px;
+}
+.service-icon img {
+    background: #edeff3;
+    padding: 39px;
+    border-radius: 50%;
+}
+/* Service Area */

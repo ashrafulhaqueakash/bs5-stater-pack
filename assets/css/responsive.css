@@ -1,12 +1,29 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width:992px) and (max-width: 1200px) {
-    
+    .single-service{
+        padding: 120px 35px 80px;
+    }
 }
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .single-feature {
      padding: 60px 30px;   
+    }
+    .about-image {
+        width: 92.206%;
+    }
+    .about-absulote-img-1 {
+        position: absolute;
+        top: 50%;
+        right: -30%;
+        width: 29.621%;
+    }
+    .about-absulote-img-2{
+        position: absolute;
+        top: 55%;
+        right: -29%;
+        width: 29.621%;
     }
 }
 
@@ -23,5 +40,17 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
-    
+    /* About Area */
+    .about-absulote-img-1 {
+        position: absolute;
+        top: 50%;
+        right: -30%;
+        width: 29.621%;
+    }
+    .about-absulote-img-2{
+        position: absolute;
+        top: 55%;
+        right: -29%;
+        width: 29.621%;
+    }
 }
