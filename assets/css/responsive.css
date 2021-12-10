@@ -3,10 +3,22 @@
     .single-service{
         padding: 120px 35px 80px;
     }
+    .project-details{
+        padding: 20px;
+    }
+    .info-form input, textarea {
+        padding: 8px 10px;
+    }
 }
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-padding{
+        padding: 50px 0;
+    }
+    .title-space-line{
+        margin-top: 50px;
+    }
     .single-feature {
      padding: 60px 30px;   
     }
@@ -25,21 +37,19 @@
         right: -29%;
         width: 29.621%;
     }
+    .client-sub-slide {
+        width: 650px !important;
+    }
+    .info-form input, textarea {
+        padding: 8px 10px;
+    }
 }
-
-/* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 575px) and (max-width: 767px) {
-    
-
-}
-
-/* Mobile Layout: 320px. */
-@media only screen and (min-width: 320px) and (max-width: 574px) {
-    
-}
-
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+    
+    .title{
+        font-size: 30px;
+    }
     /* About Area */
     .about-absulote-img-1 {
         position: absolute;
@@ -53,4 +63,40 @@
         right: -29%;
         width: 29.621%;
     }
+    .client-sub-slide {
+        width: 100% !important;
+    }
+    .client-sub-slide p {
+        font-size: 14px;
+        color: #494949;
+    }
+    .info-form input, textarea {
+        padding: 8px 10px;
+    }
 }
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    .section-padding{
+        padding: 40px 0;
+    }
+    .title-space-line{
+        margin-top: 40px;
+    }
+    .client-sub-slide {
+        width: 480px !important;
+    }
+    .client-sub-slide p {
+        font-size: 16px;
+        color: #494949;
+    }
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (min-width: 320px) and (max-width: 574px) {
+    
+    .client-sub-slide {
+        width: 360px !important;
+    }
+}
+
